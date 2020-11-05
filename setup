@@ -1,0 +1,8 @@
+#!/bin/sh
+
+# There is likely a better way to do this,
+# but I won't bother
+
+mkdir -p $HOME/.config/sway/
+cp .config/sway/config $HOME/.config/sway/config
+
