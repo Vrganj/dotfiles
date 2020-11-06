@@ -3,6 +3,11 @@
 # There is likely a better way to do this,
 # but I won't bother
 
+echo "Copying Sway config"
 mkdir -p $HOME/.config/sway/
 cp .config/sway/config $HOME/.config/sway/config
+
+echo "Copying Alacritty config"
+mkdir -p $HOME/.config/alacritty/
+cp .config/alacritty/alacritty.yml $HOME/.config/alacritty/alacritty.yml
 
